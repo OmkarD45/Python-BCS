@@ -1,0 +1,25 @@
+n=int(input("enter the limit"))
+i=3
+osum=0
+esum=0
+sum=1
+while(i<=n):
+	fact=1
+	j=1
+	while(j<=i):
+		fact=fact*j
+		j=j+1
+	osum=osum+fact
+	i=i+2
+i=2
+fact=1
+while(i<=n):
+	fact=1
+	j=1
+	while(j<=i):
+		fact=fact*j
+		j=j+1
+	esum=esum+fact
+	i=i+2
+sum=sum+esum-osum
+print("the ans is: ",sum)

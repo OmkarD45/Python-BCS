@@ -1,0 +1,11 @@
+list=[1,2,3,4,1,1,2,3,3,4,5,6]
+s1=set(list)
+print(s1)
+list=[1,4,6,7,9,89,98,0]
+s2=set(list)
+print(s2)
+s3=s1|s2
+print("union:\t",s3)
+print("intersection:\t",s1&s2)
+print("s1-s2:\t",s1-s2)
+print("s2-s1:\t",s2-s1)
